@@ -2,10 +2,42 @@
 
 
 
-
-
-
 /* <!-- headerここまで --> */
+
+/* top画像ここから */
+.top_logo{
+    background-image: url(./folder/logo.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 60%;
+    height: 250px;
+    z-index: 5;
+    left: 2%;
+    top: 2%;
+}
+
+.top_text{
+    background-image: url(./folder/visual_text_pc.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 60%;
+    height: 250px;
+    z-index: 5;
+    left: 60%;
+    top: 45%;
+}
+
+
+.top_img{
+    background-image: url(./folder/visual_1_pc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 450px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
 /* <!-- mainここから --> */
 
 
