@@ -30,14 +30,12 @@
 }
 .top-logo{
     position: absolute;
-<<<<<<< HEAD
     top: -10%;
 }
 .sign-logo{
     position: absolute;
     right: 9%;
     top: 238px;
-=======
     margin: 0 auto;
     width: 60%;
     height: 250px;
@@ -50,7 +48,6 @@
     z-index: 5;
     right: 200px;
     top: 53%;
->>>>>>> e8dbd0e92c7ad8683b178d73009fa56d9bc855a3
 }
 
 
