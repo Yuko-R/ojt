@@ -1,8 +1,9 @@
 /* <!-- headerここから --> */
-body{
+.container{
     max-width: 1152px;
-
+    margin: auto;
 }
+
 .navbar-light .navbar-nav .nav-link {
     color: rgb(0,0,0);
 }
@@ -36,6 +37,11 @@ body{
 
 /* <!-- mainここから --> */
 
+.container {
+    width: 1100px;
+    height: 900px;
+}
+
 .container h2 {
     text-align: center;
     font-size: 30px;
@@ -45,12 +51,25 @@ body{
 }
 
 article {
-    width: 320px;
+    width: 300px;
     height: 400px;
+    float: left;
+    margin-right: 25px;
 }
 
+article:hover{
+    box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.article_text {
+    margin: 5 5 5 5;
+}
+
+
 article img {
-    width: 320px;
+    width: 300px;
     height: 200px;
 }
 
@@ -58,8 +77,9 @@ article h3 {
     font-size: 18px;
 }
 
-article .readmore {
-
+.readmore {
+    bottom: 0;
+    right: 0;
 }
 
 /* <!-- mainここまで --> */
