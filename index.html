@@ -28,24 +28,33 @@
     </nav>
     <!-- headerここまで -->
     <!-- top画像ここから -->
-    <div class="top_img">
-        <div class="top_logo"></div>
-        <div class="top_text"></div>
-    </div>
-        <p>進化し続ける「街」アメリカンビレッジ</p>
-
+        <!-- pictureタグを使うと簡単にレスポンシブ対応可能 -->
+        
+            <picture class="top-photo">
+                <source srcset="./folder/visual_1_sp.png" media="(max-width: 767px)"/>
+                <img src="./folder/visual_1_pc.png" alt="アメリカンビレッジ夜景">
+            </picture>
+        
+            <!-- small-logo左上のロゴ -->
+            <div class="top-logo">
+                <img src="./folder/logo.png" alt="アメリカンビレッジロゴ">
+            </div>
+            <!-- sign-logo右側のロゴ -->
+            <picture class="sign-logo">
+                <source srcset="./folder/visual_text_sp.png" media="(max-width: 767px)"/>
+                <img src="./folder/visual_text_pc.png" alt="アメリカンビレッジのサインロゴ">
+            </picture>
+       
     
     <!-- top画像ここまで -->
 
     <!-- mainここから -->
-    <main>
-        <h3>Latest Articles</h3>
-    </main>
+
+
     <!-- mainここまで -->
     <!-- footerここから -->
-    <footer>
-        <div class="footer_text">Copyright ©️ Shinohara. ALL RIGHT RESERVED</div>
-    </footer>
+
+
     <!-- foooterここまで -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
