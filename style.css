@@ -20,19 +20,28 @@
 
 /* top画像ここから */
 .top-photo img{
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    margin:0 auto;
+    z-index: 1;
 }
 .top-logo{
     position: absolute;
-    top: 20px;
+    margin: 0 auto;
+    width: 60%;
+    height: 250px;
+    z-index: 5;
+    top: 2%;
+    left: 0%;
 }
 .sign-logo{
     position: absolute;
-    right: 10%;
-    bottom: 17%;
+    z-index: 5;
+    right: 200px;
+    top: 53%;
 }
+
+
 
 
 /* <!-- mainここから --> */
@@ -40,6 +49,7 @@
 .container {
     width: 1100px;
     height: 900px;
+    margin-right: auto;
 }
 
 .container h2 {
@@ -50,11 +60,17 @@
     margin-bottom: 100px;
 }
 
+a {
+    color: black;
+}
+
 article {
     width: 300px;
     height: 400px;
     float: left;
-    margin: 0 auto;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
 }
 
 article:hover{
@@ -64,9 +80,8 @@ article:hover{
 }
 
 .article_text {
-    margin: 5 5 5 5;
+    margin-left: 8px;
 }
-
 
 article img {
     width: 300px;
@@ -74,12 +89,15 @@ article img {
 }
 
 article h3 {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .readmore {
     bottom: 0;
     right: 0;
+    font-size: 15px;
+    border-bottom: 1px solid black;
+    width: 90px;
 }
 
 /* <!-- mainここまで --> */
