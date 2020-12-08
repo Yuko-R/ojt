@@ -19,6 +19,9 @@
 /* <!-- headerここまで --> */
 
 /* top画像ここから */
+.top{
+    position: relative;
+}
 .top-photo img{
     display: flex;
     justify-content: center;
@@ -26,12 +29,12 @@
 }
 .top-logo{
     position: absolute;
-    top: 20px;
+    top: -10%;
 }
 .sign-logo{
     position: absolute;
-    right: 10%;
-    bottom: 17%;
+    right: 9%;
+    top: 238px;
 }
 
 
@@ -106,8 +109,19 @@ footer {
 @media screen and (max-width: 767px) {
     body{
       min-width: 375px;
-    
     }
+    .top-logo{
+        left: 30%;
+        top: -250px;
+    }
+    .top-photo img{
+        margin-top: 200px;
+    }
+    .sign-logo{
+        width: 80%;
+        top: 20px;
+        padding-right: 30%;
+ }
 }
 
 
