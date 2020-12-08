@@ -49,10 +49,19 @@ body{
 
 /* <!-- mainここまで --> */
 /* <!-- footerここから --> */
+footer {
+    height: 60px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-
-
-
+.footer_text {
+    font-size: 10px;
+    text-align: center;
+}
 
 /* <!-- foooterここまで --> */
 
@@ -74,20 +83,6 @@ body{
 
 /* <!-- mainここまで --> */
 /* <!-- footerここから --> */
-footer {
-    height: 60px;
-    background-color: black;
-    color: #fff;
-    display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer_text {
-    font-size: 10px;
-    text-align: center;
-}
-
 
 
 /* <!-- foooterここまで --> */
