@@ -1,71 +1,75 @@
 /* <!-- headerここから --> */
-
-
+body{
+    max-width: 1152px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0,0,0);
+}
+.navbar-toggler {
+    display: flex;
+    margin-left: auto;
+}
+.nav-item{
+    display: flex;
+    margin-left: auto;
+}
 
 /* <!-- headerここまで --> */
 
 /* top画像ここから */
-.top_logo{
-    background-image: url(./folder/logo.png);
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 60%;
-    height: 250px;
-    z-index: 5;
-    left: 2%;
-    top: 2%;
-}
-
-.top_text{
-    background-image: url(./folder/visual_text_pc.png);
-    background-repeat: no-repeat;
-    position: absolute;
-    width: 60%;
-    height: 250px;
-    z-index: 5;
-    left: 60%;
-    top: 45%;
-}
-
-
-.top_img{
-    background-image: url(./folder/visual_1_pc.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 90%;
-    height: 450px;
-    margin: 0 auto;
+.top-photo img{
+    position: relative;
+    text-align: center;
+    margin:0 auto;
     z-index: 1;
 }
+.top-logo{
+    position: absolute;
+    margin: 0 auto;
+    width: 60%;
+    height: 250px;
+    z-index: 5;
+    top: 2%;
+    left: 0%;
+}
+.sign-logo{
+    position: absolute;
+    z-index: 5;
+    right: 200px;
+    top: 53%;
+}
+
+
+
 
 /* <!-- mainここから --> */
-main h3 {
-    text-align: center;
-    font-size: 30px;
-    margin-top: 100px;
-    margin-bottom: 20px;
+
+
+
+
+/* <!-- mainここまで --> */
+/* <!-- footerここから --> */
+
+
+
+
+
+/* <!-- foooterここまで --> */
+
+/* <!-- レスポンシブ対応ここから --> */
+/* <!-- headerここから --> */
+@media screen and (max-width: 767px) {
+    body{
+      min-width: 375px;
+    
+    }
 }
 
-.card {
-    border: 0;
-    box-shadow: 0;
-}
 
-.card-body {
-    width: 100%;
-    height: 225px;
-}
+/* <!-- headerここまで --> */
+/* <!-- mainここから --> */
 
-.container img {
-    width: 100%;
-    height: 225px;
-}
 
-/* .container {
-    width: 210px;
-    height: 225px;
-    display: inline-block;
-} */
 
 
 /* <!-- mainここまで --> */
@@ -75,30 +79,15 @@ footer {
     background-color: black;
     color: #fff;
     display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer_text {
     font-size: 10px;
+    text-align: center;
 }
 
-/* <!-- foooterここまで --> */
-
-/* <!-- レスポンシブ対応ここから --> */
-/* <!-- headerここから --> */
-
-
-
-
-/* <!-- headerここまで --> */
-/* <!-- mainここから --> */
-
-
-
-
-/* <!-- mainここまで --> */
-/* <!-- footerここから --> */
 
 
 /* <!-- foooterここまで --> */
