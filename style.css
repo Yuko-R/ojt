@@ -20,28 +20,19 @@
 
 /* top画像ここから */
 .top-photo img{
-    position: relative;
-    text-align: center;
-    margin:0 auto;
-    z-index: 1;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 .top-logo{
     position: absolute;
-    margin: 0 auto;
-    width: 60%;
-    height: 250px;
-    z-index: 5;
-    top: 2%;
-    left: 0%;
+    top: 20px;
 }
 .sign-logo{
     position: absolute;
-    z-index: 5;
-    right: 200px;
-    top: 53%;
+    right: 10%;
+    bottom: 17%;
 }
-
-
 
 
 /* <!-- mainここから --> */
