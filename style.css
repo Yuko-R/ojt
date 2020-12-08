@@ -1,6 +1,7 @@
 /* <!-- headerここから --> */
 body{
     max-width: 1152px;
+
 }
 .navbar-light .navbar-nav .nav-link {
     color: rgb(0,0,0);
@@ -44,18 +45,42 @@ body{
 
 /* <!-- mainここから --> */
 
+.container h2 {
+    text-align: center;
+    font-size: 30px;
+    width: 1000px;
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
 
+article {
+    width: 320px;
+    height: 400px;
+}
 
+article img {
+    width: 320px;
+    height: 200px;
+}
+
+article h3 {
+    font-size: 18px;
+}
+
+article .readmore {
+
+}
 
 /* <!-- mainここまで --> */
 /* <!-- footerここから --> */
 footer {
     height: 60px;
+    width: 100%;
     background-color: black;
     color: #fff;
     display: flex;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer_text {
